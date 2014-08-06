@@ -1,0 +1,78 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+ 
+# Video/Image Files #
+#####################
+*.mov
+*.avi
+*.png
+*.svg
+*.tif
+analyze/smooth*
+Videos/*
+
+#
+# Raw Data #
+############
+*.txt
+*.ped
+*.dat
+*.tped
+*.bed
+*.gz
+*.log
+*.pedind
+*.map
+*.outliers
+*.grm
+*.bim
+*.frq
+*.hh
+*.fam
+*.tbi
+*.summary
+*.imiss
+*.nosex
+
+# polyphen2 #
+#############
+*.input
+*.features
+*.predictions
+*.bb
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+ 
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+ 
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
